@@ -1,0 +1,45 @@
+
+
+Body {
+  background-image: url("images/cloudsimg.jpg");
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    background-color: #92A8D1;
+    font-size: 60px;
+}
+
+
+p {
+  color: #92A8D1;
+  text-align: center;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+
+h2 {
+    text-align: center;
+    border-style: solid;
+    background-color: #92A8D1;
+    font-size: 60px;
+}
+
+
+
+

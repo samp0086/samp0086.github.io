@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Jagger's Weather Converter</title>
+
+<body>
+
+<link rel="stylesheet" href="styles4.css">
+
+p {
+  background-image: url("images/cloudsimg.jpg");
+}
+
+<h1> Celsius to Fahrenheit Converter </H1>
+
+<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+<p>
+<label>Fahrenheit</label>
+<input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" 
+onchange="temperatureConverter(this.value)">
+</p>
+<p>Celcius: <span id="outputCelcius"></span></p>
+
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+}
+</script>
+
+<img src="images/thermometerimg.jpg" alt="thermometer" width="300" height="300">
+
+<h2> Celsius is 1.8 times larger than Fahrenheit </H2>
+
+</body>
+</html>
